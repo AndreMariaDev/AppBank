@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3e29d3ac-af1f-4912-8c16-68561f1e617b": {
+      "ProjectGuid": "3e29d3ac-af1f-4912-8c16-68561f1e617b",
+      "DisplayName": "BankSystem",
+      "ColorIndex": 0
+    },
+    "957dc72c-281d-4dc5-898f-42b9b14c07bd": {
+      "ProjectGuid": "957dc72c-281d-4dc5-898f-42b9b14c07bd",
+      "DisplayName": "Bank.Infra",
+      "ColorIndex": 1
+    },
+    "061f43f2-b5d2-4b95-b13c-0af9574aa52b": {
+      "ProjectGuid": "061f43f2-b5d2-4b95-b13c-0af9574aa52b",
+      "DisplayName": "Bank.Domain",
+      "ColorIndex": 2
+    },
+    "71760d74-5cb7-4e38-b0f3-023e52fa6d69": {
+      "ProjectGuid": "71760d74-5cb7-4e38-b0f3-023e52fa6d69",
+      "DisplayName": "Bank.Application.Service",
+      "ColorIndex": 3
+    },
+    "615a9fbd-a212-497d-b386-86d987399b88": {
+      "ProjectGuid": "615a9fbd-a212-497d-b386-86d987399b88",
+      "DisplayName": "Bank.CrossCutting.IoC",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}
