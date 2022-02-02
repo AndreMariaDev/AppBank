@@ -8,6 +8,7 @@ namespace BankSystem.Configurations
 {
     public class Startup
     {
+        private readonly string _policyName = "CorsPolicy";
         public Startup(IConfiguration configuration)
         {
             this.Configuration = configuration;
@@ -17,6 +18,15 @@ namespace BankSystem.Configurations
 
         public void ConfigurationServices(IServiceCollection services)
         {
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy(name: _policyName, builder =>
+                {
+                    builder.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+                });
+            });
             services.AddControllers().AddNewtonsoftJson(options =>
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
             );
@@ -47,11 +57,14 @@ namespace BankSystem.Configurations
         {
             DataBaseManagementService.MigrationInitialisation(app);
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
+            //if (app.Environment.IsDevelopment())
+            //{
                 app.UseSwagger();
                 app.UseSwaggerUI();
-            }
+            //}
+
+            app.UseRouting();
+            app.UseCors(_policyName);
 
             app.UseHttpsRedirection();
 
