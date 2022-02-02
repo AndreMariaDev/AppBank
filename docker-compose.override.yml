@@ -1,0 +1,16 @@
+version: '3.6'
+
+services:
+ api.bank.system:
+  environment:
+   - ASPNETCORE_ENVIRONMENT=Development
+  ports:
+   - "9091:80"
+
+ mssql-server:
+  environment:
+   - SA_PASSWORD=123Aa321
+   - ACCEPT_EULA=Y
+  ports:
+   - "1401:1433"
+

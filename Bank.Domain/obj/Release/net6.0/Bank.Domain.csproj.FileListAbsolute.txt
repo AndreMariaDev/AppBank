@@ -1,0 +1,12 @@
+C:\Projetos\DotNet\BankSystem\Bank.Domain\bin\Release\net6.0\Bank.Domain.deps.json
+C:\Projetos\DotNet\BankSystem\Bank.Domain\bin\Release\net6.0\Bank.Domain.dll
+C:\Projetos\DotNet\BankSystem\Bank.Domain\bin\Release\net6.0\ref\Bank.Domain.dll
+C:\Projetos\DotNet\BankSystem\Bank.Domain\bin\Release\net6.0\Bank.Domain.pdb
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\Bank.Domain.csproj.AssemblyReference.cache
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\Bank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\Bank.Domain.AssemblyInfoInputs.cache
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\Bank.Domain.AssemblyInfo.cs
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\Bank.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\Bank.Domain.dll
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\ref\Bank.Domain.dll
+C:\Projetos\DotNet\BankSystem\Bank.Domain\obj\Release\net6.0\Bank.Domain.pdb
