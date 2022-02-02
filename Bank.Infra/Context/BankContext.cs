@@ -22,6 +22,7 @@ namespace Bank.Infra.Context
         public DbSet<BankAccount> BankAccounts { get; set; }
         public DbSet<BankTransaction> BankTransactions { get; set; }
         public DbSet<MoneyTransfer> MoneyTransfers { get; set; }
+        public DbSet<User> Users { get; set; }
 
         #endregion
 
